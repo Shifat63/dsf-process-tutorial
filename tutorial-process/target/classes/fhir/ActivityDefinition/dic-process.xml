@@ -1,0 +1,49 @@
+<ActivityDefinition xmlns="http://hl7.org/fhir">
+	<meta>
+		<tag>
+			<system value="http://dsf.dev/fhir/CodeSystem/read-access-tag" />
+			<code value="ALL" />
+		</tag>
+	</meta>
+	<extension url="http://dsf.dev/fhir/StructureDefinition/extension-process-authorization">
+		<extension url="message-name">
+			<valueString value="startDicProcess" />
+		</extension>
+		<extension url="task-profile">
+			<valueCanonical value="http://dsf.dev/fhir/StructureDefinition/task-start-dic-process|#{version}" />
+		</extension>
+		<extension url="requester">
+			<valueCoding>
+				<system value="http://dsf.dev/fhir/CodeSystem/process-authorization" />
+				<code value="LOCAL_ALL" />
+			</valueCoding>
+		</extension>
+		<extension url="recipient">
+			<valueCoding>
+				<system value="http://dsf.dev/fhir/CodeSystem/process-authorization" />
+				<code value="LOCAL_ALL" />
+			</valueCoding>
+		</extension>
+	</extension>
+	<url value="http://dsf.dev/bpe/Process/dicProcess" />
+	<!-- version managed by bpe -->
+	<version value="#{version}" />
+	<name value="DicProcess" />
+	<title value="DIC Process" />
+	<subtitle value="DIC process for the DSF process implementation tutorial" />
+	<!-- status managed by bpe -->
+	<status value="unknown" />
+	<experimental value="false" />
+	<!-- date managed by bpe -->
+	<date value="#{date}" />
+	<publisher value="DSF" />
+	<contact>
+		<name value="DSF" />
+		<telecom>
+			<system value="email" />
+			<value value="pmo@dsf.dev" />
+		</telecom>
+	</contact>
+	<description value="This implementation contains the basic elements that a minimal process must contain in order to be executable." />
+	<kind value="Task" />
+</ActivityDefinition>

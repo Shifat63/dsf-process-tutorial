@@ -1,0 +1,9 @@
+dev\dsf\process\tutorial\TutorialProcessPluginDefinition.class
+dev\dsf\process\tutorial\service\CosTask.class
+dev\dsf\process\tutorial\message\HelloHrpMessage.class
+dev\dsf\process\tutorial\service\HrpTask.class
+dev\dsf\process\tutorial\message\HelloCosMessage.class
+dev\dsf\process\tutorial\message\GoodbyeDicMessage.class
+dev\dsf\process\tutorial\service\DicTask.class
+dev\dsf\process\tutorial\ConstantsTutorial.class
+dev\dsf\process\tutorial\spring\config\TutorialConfig.class
