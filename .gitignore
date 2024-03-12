@@ -1,27 +1,27 @@
-**/.classpath
-**/.project
-**/.idea/
-**/.settings/
-**/target/
-**/*.iml
+#**/.classpath
+#**/.project
+#**/.idea/
+#**/.settings/
+#**/target/
+#**/*.iml
 
-test-data-generator/cert/**/*.pem
-test-data-generator/cert/**/*.csr
-test-data-generator/cert/**/*.p12
-test-data-generator/cert/thumbprints.txt
+#test-data-generator/cert/**/*.pem
+#test-data-generator/cert/**/*.csr
+#test-data-generator/cert/**/*.p12
+#test-data-generator/cert/thumbprints.txt
 
-test-data-generator/bundle/*.xml
+#test-data-generator/bundle/*.xml
 
-dev-setup/**/bpe/log/*.log
-dev-setup/**/bpe/log/*.log.gz
-dev-setup/**/bpe/last_event/time.file
-dev-setup/**/bpe/plugin/*.jar
-dev-setup/**/bpe/process/*.jar
+#dev-setup/**/bpe/log/*.log
+#dev-setup/**/bpe/log/*.log.gz
+#dev-setup/**/bpe/last_event/time.file
+#dev-setup/**/bpe/plugin/*.jar
+#dev-setup/**/bpe/process/*.jar
 
-dev-setup/**/fhir/conf/bundle.xml
-dev-setup/**/fhir/log/*.log
-dev-setup/**/fhir/log/*.log.gz
+#dev-setup/**/fhir/conf/bundle.xml
+#dev-setup/**/fhir/log/*.log
+#dev-setup/**/fhir/log/*.log.gz
 
-dev-setup/secrets/*.pem
-dev-setup/.env
-dev-setup/docker-compose.override.yml
+#dev-setup/secrets/*.pem
+#dev-setup/.env
+#dev-setup/docker-compose.override.yml

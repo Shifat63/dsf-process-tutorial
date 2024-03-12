@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8ebc619-a4b9-4189-be65-66d6665afd34" name="Changes" comment="Test">
+      <change afterPath="$PROJECT_DIR$/tutorial-process/src/main/resources/fhir/Task/task-start-dic-process.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-process/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-process/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-process/src/main/java/dev/dsf/process/tutorial/service/DicTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-process/src/main/java/dev/dsf/process/tutorial/service/DicTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-process/src/main/java/dev/dsf/process/tutorial/spring/config/TutorialConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-process/src/main/java/dev/dsf/process/tutorial/spring/config/TutorialConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-process/src/main/resources/bpe/dic-process.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-process/src/main/resources/bpe/dic-process.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-process/src/main/resources/fhir/example-task.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-process/src/main/resources/fhir/example-task.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2dacQZRR2oLO3D3a3pHwXRtucSJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.dsf-process-tutorial [clean].executor": "Run",
+    "Maven.dsf-process-tutorial [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "exe1",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/50114587/Desktop/DSF/dsf-process-tutorial",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8ebc619-a4b9-4189-be65-66d6665afd34" name="Changes" comment="" />
+      <created>1710249615796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710249615796</updated>
+      <workItem from="1710249617159" duration="3323000" />
+      <workItem from="1710253459915" duration="3424000" />
+    </task>
+    <task id="LOCAL-00001" summary="Test">
+      <option name="closed" value="true" />
+      <created>1710251944058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710251944058</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+  </component>
+</project>
