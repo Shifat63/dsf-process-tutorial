@@ -31,4 +31,13 @@
         </type>
         <valueString value="startDicProcess"/>
     </input>
+    <input>
+        <type>
+            <coding>
+                <system value="http://dsf.dev/fhir/CodeSystem/tutorial" />
+                <code value="tutorial-input" />
+            </coding>
+        </type>
+        <valueString value="test from UKB" />
+    </input>
 </Task>

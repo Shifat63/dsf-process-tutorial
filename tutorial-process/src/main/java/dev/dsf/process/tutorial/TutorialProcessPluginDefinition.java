@@ -45,7 +45,11 @@ public class TutorialProcessPluginDefinition implements ProcessPluginDefinition
 		String sTaskDicProcess = "fhir/StructureDefinition/task-start-dic-process.xml";
 		String tTaskDicProcess = "fhir/Task/task-start-dic-process.xml";
 
-		return Map.of(ConstantsTutorial.PROCESS_NAME_FULL_DIC, List.of(aDicProcess, sTaskDicProcess, tTaskDicProcess));
+		//Exercise 2
+		String csTutorial = "fhir/CodeSystem/tutorial.xml";
+		String vsTutorial = "fhir/ValueSet/tutorial.xml";
+
+		return Map.of(ConstantsTutorial.PROCESS_NAME_FULL_DIC, List.of(aDicProcess, sTaskDicProcess, tTaskDicProcess, vsTutorial, csTutorial));
 	}
 
 	@Override
