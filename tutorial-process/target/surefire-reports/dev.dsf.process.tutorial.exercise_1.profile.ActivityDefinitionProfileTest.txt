@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: dev.dsf.process.tutorial.exercise_1.profile.ActivityDefinitionProfileTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.776 s -- in dev.dsf.process.tutorial.exercise_1.profile.ActivityDefinitionProfileTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.255 s -- in dev.dsf.process.tutorial.exercise_1.profile.ActivityDefinitionProfileTest
