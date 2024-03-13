@@ -5,13 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8ebc619-a4b9-4189-be65-66d6665afd34" name="Changes" comment="Test">
-      <change afterPath="$PROJECT_DIR$/tutorial-process/src/main/resources/fhir/Task/task-start-dic-process.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial-process/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-process/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-setup/cos/bpe/process/tutorial-process-1.0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-setup/dic/bpe/process/tutorial-process-1.0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-setup/hrp/bpe/process/tutorial-process-1.0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-setup/secrets/app_cos_client_certificate_private_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/dev-setup/secrets/app_cos_client_certificate_private_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-setup/secrets/app_dic_client_certificate_private_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/dev-setup/secrets/app_dic_client_certificate_private_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-setup/secrets/app_hrp_client_certificate_private_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/dev-setup/secrets/app_hrp_client_certificate_private_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-setup/secrets/keycloak_trust_store.jks" beforeDir="false" afterPath="$PROJECT_DIR$/dev-setup/secrets/keycloak_trust_store.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-data-generator/cert/cos-client/cos-client_certificate.p12" beforeDir="false" afterPath="$PROJECT_DIR$/test-data-generator/cert/cos-client/cos-client_certificate.p12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-data-generator/cert/dic-client/dic-client_certificate.p12" beforeDir="false" afterPath="$PROJECT_DIR$/test-data-generator/cert/dic-client/dic-client_certificate.p12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-data-generator/cert/hrp-client/hrp-client_certificate.p12" beforeDir="false" afterPath="$PROJECT_DIR$/test-data-generator/cert/hrp-client/hrp-client_certificate.p12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-data-generator/target/classes/bundle-templates/bundle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-data-generator/target/classes/dev/dsf/process/tutorial/tools/generator/BundleGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-data-generator/target/classes/dev/dsf/process/tutorial/tools/generator/CertificateGenerator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-data-generator/target/classes/dev/dsf/process/tutorial/tools/generator/CertificateGenerator$CertificateFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-data-generator/target/classes/dev/dsf/process/tutorial/tools/generator/CertificateGenerator$CertificateType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-data-generator/target/classes/dev/dsf/process/tutorial/tools/generator/CertificateGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-data-generator/target/classes/dev/dsf/process/tutorial/tools/generator/EnvGenerator$EnvEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-data-generator/target/classes/dev/dsf/process/tutorial/tools/generator/EnvGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-data-generator/target/classes/dev/dsf/process/tutorial/tools/generator/TestDataGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-data-generator/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-data-generator/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-data-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-data-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-data-generator/target/test-data-generator-1.0.0.1-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorial-process/src/main/java/dev/dsf/process/tutorial/service/DicTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-process/src/main/java/dev/dsf/process/tutorial/service/DicTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial-process/src/main/java/dev/dsf/process/tutorial/spring/config/TutorialConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-process/src/main/java/dev/dsf/process/tutorial/spring/config/TutorialConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorial-process/src/main/resources/bpe/dic-process.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-process/src/main/resources/bpe/dic-process.bpmn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorial-process/src/main/resources/fhir/example-task.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-process/src/main/resources/fhir/example-task.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-process/target/classes/bpe/dic-process.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-process/target/classes/bpe/dic-process.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-process/target/classes/dev/dsf/process/tutorial/service/DicTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-process/target/classes/dev/dsf/process/tutorial/service/DicTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-process/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-process/target/tutorial-process-1.0.0.1-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +48,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="enabledProfiles">
+      <list>
+        <option value="exercise-1" />
+      </list>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -68,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710249615796</updated>
       <workItem from="1710249617159" duration="3323000" />
-      <workItem from="1710253459915" duration="3424000" />
+      <workItem from="1710253459915" duration="7843000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <option name="closed" value="true" />
@@ -78,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710251944058</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test">
+      <option name="closed" value="true" />
+      <created>1710257130084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710257130084</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -18,7 +18,6 @@ public class DicTask extends AbstractServiceDelegate
 	@Override
 	protected void doExecute(DelegateExecution execution, Variables variables)
 	{
-		log.info("Hello. Recepient_System: "+ variables.getStartTask().getRestriction().getRecipientFirstRep().getIdentifier().getSystem()
-		+" Recepient_Value:"+ variables.getStartTask().getRestriction().getRecipientFirstRep().getIdentifier().getValue());
+		log.info("Hello. Recepient_System: "+ variables.getStartTask().getRestriction().getRecipientFirstRep().getIdentifier().getSystem());
 	}
 }
