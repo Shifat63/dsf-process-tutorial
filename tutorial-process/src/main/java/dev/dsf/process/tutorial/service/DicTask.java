@@ -1,18 +1,15 @@
 package dev.dsf.process.tutorial.service;
 
+import lombok.extern.slf4j.Slf4j;
 import org.camunda.bpm.engine.delegate.DelegateExecution;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import dev.dsf.bpe.v1.ProcessPluginApi;
 import dev.dsf.bpe.v1.activity.AbstractServiceDelegate;
 import dev.dsf.bpe.v1.variables.Variables;
 
+@Slf4j
 public class DicTask extends AbstractServiceDelegate
 {
-
-	private static final Logger logger = LoggerFactory.getLogger(DicTask.class);
-
 	public DicTask(ProcessPluginApi api)
 	{
 		super(api);
@@ -21,7 +18,7 @@ public class DicTask extends AbstractServiceDelegate
 	@Override
 	protected void doExecute(DelegateExecution execution, Variables variables)
 	{
-		logger.info("Hello Dic from organization '{}'",
+		log.warn("DSF identifier: "+
 				variables.getStartTask().getRestriction().getRecipientFirstRep().getIdentifier().getValue());
 	}
 }
